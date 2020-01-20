@@ -81,11 +81,11 @@ In the following tutorial we will be testing the software using a precalculated 
 This website has information about the current Greek coverment formation - Ministers, Ministries and the Prime Minister.
 
 First of all copy and paste in your .jar file directory the following files:
-```
+
 [Dictionary](https://github.com/Erodotos/SearchEngine/blob/master/dictionary.txt)
 [Sources](https://github.com/Erodotos/SearchEngine/blob/master/sources.txt)
 [Stopwords](https://github.com/Erodotos/SearchEngine/blob/master/stopWords.txt)
-```
+
 
 The next step is to run the following command in the directory where we have placed the above files, which is the same directory as search-engine-1.0-SNAPSHOT.jar
 
