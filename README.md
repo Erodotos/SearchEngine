@@ -83,7 +83,9 @@ This website has information about the current Greek coverment formation - Minis
 First of all copy and paste in your .jar file directory the following files:
 
 [Dictionary](https://github.com/Erodotos/SearchEngine/blob/master/dictionary.txt)
+
 [Sources](https://github.com/Erodotos/SearchEngine/blob/master/sources.txt)
+
 [Stopwords](https://github.com/Erodotos/SearchEngine/blob/master/stopWords.txt)
 
 
