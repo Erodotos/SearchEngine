@@ -1,4 +1,4 @@
-# Search Engine Structure
+# Search Engine
 
 This project concerns the implementation of a simple search engine.
 The Applications is devided into two parts. Front-End and Back-End. Below you can see in more detail the structure of the software.
