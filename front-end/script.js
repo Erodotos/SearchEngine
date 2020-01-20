@@ -24,7 +24,7 @@ function search() {
 			// What do when the request is successful
 			var data = JSON.parse(xhr.responseText);
 			for (i = 0; i < data.results.length; i++) {
-				res.innerHTML += '<div class="card mt-2"> <div class="card-header"><a href=" '+data.results[i]+'">Result '+(i+1)+'</a></div> <div class="card-body"><blockquote class="blockquote mb-0"><p><a href="data.results[i]">' + data.results[i] + '</a></p></blockquote></div></div>';
+				res.innerHTML += '<div class="card mt-2"> <div class="card-header"><a href=" '+data.results[i]+'">Result '+(i+1)+'</a></div> <div class="card-body"><blockquote class="blockquote mb-0"><p><a href=" + data.results[i] + ">' + data.results[i] + '</a></p></blockquote></div></div>';
 			}
 			console.log(data);
 		} else {
