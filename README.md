@@ -57,15 +57,15 @@ All the work for crawling, indexing and pricessing queries is done here.
  
  ### Options to run the project 
  
- * First Way : download the precompiled .jar file from the repository
+ **First Way : download the precompiled .jar file from the repository**
  
   1. Download search-engine-1.0-SNAPSHOT.jar
   2. Open the command-line at the folder you have downloaded the .jar file
-  3. Use the following command ```java -jar <website> <number of pages to crawl> <number of threads> <usel old data?(true/false)> <no crawling?(true/false)> ```
+  3. Use the following command ```java -jar search-engine-1.0-SNAPSHOT.jar <website> <number of pages to crawl> <number of threads> <use old data?(true/false)> <no crawling?(true/false)> ```
   4. Wait the server to initialize (about 1-2 minutes - depends on the hardware used)
   5. Open the ```index.html``` file and try to search something by giving a query and the number of pages you want to get as a result.
   
- * Second Way : download the whole project and using maven generate your own .jar file
+ **Second Way : download the whole project and using maven generate your own .jar file**
  
   1. Download the project from the repository 
   2. Import the project in you IDE - intellij Idea
@@ -73,3 +73,19 @@ All the work for crawling, indexing and pricessing queries is done here.
   4. Perform maven Lifecycle  ```package``` operation
   5. The .jar file is produced and saved in the created folder with name ```Target```
   6. The following steps are the same as in the previus option
+  
+## Tutorial
+
+In the following tutorial we will be testing the software using a precalculated dictionary which was created from the following website : (https://en.wikipedia.org/wiki/Cabinet_of_Kyriakos_Mitsotakis)
+
+This website has information about the current Greek coverment formation - Ministers, Ministries and the Prime Minister.
+
+First of all copy and paste in your .jar file directory the following files:
+```
+[Dictionary]()
+[Sources]()
+```
+
+The next step is to run the following command in the directory where we have placed the above files, which is the same directory as search-engine-1.0-SNAPSHOT.jar
+
+```java -jar search-engine-1.0-SNAPSHOT.jar https://en.wikipedia.org/wiki/Cabinet_of_Kyriakos_Mitsotakis 200 8 true true```
