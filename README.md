@@ -58,8 +58,18 @@ All the work for crawling, indexing and pricessing queries is done here.
  ### Options to run the project 
  
  * First Way : download the precompiled .jar file from the repository
-    1. Download search-engine-1.0-SNAPSHOT.jar
-    2. Open the command-line at the folder you have downloaded the .jar file
-    3. Use the following command ```java -jar <website> <number of pages to crawl> <number of threads> <usel old data?(true/false)> <no crawling?(true/false)> ```
+ 
+  1. Download search-engine-1.0-SNAPSHOT.jar
+  2. Open the command-line at the folder you have downloaded the .jar file
+  3. Use the following command ```java -jar <website> <number of pages to crawl> <number of threads> <usel old data?(true/false)> <no crawling?(true/false)> ```
+  4. Wait the server to initialize (about 1-2 minutes - depends on the hardware used)
+  5. Open the ```index.html``` file and try to search something by giving a query and the number of pages you want to get as a result.
   
- * Second Way : download the whole project and using maven generate your own jar file
+ * Second Way : download the whole project and using maven generate your own .jar file
+ 
+  1. Download the project from the repository 
+  2. Import the project in you IDE - intellij Idea
+  3. Perform maven Lifecycle  ```clean``` operation
+  4. Perform maven Lifecycle  ```package``` operation
+  5. The .jar file is produced and saved in the created folder with name ```Target```
+  6. The following steps are the same as in the previus option
