@@ -93,6 +93,7 @@ The next step is to run the following command in the directory where we have pla
 
 ```java -jar search-engine-1.0-SNAPSHOT.jar https://en.wikipedia.org/wiki/Cabinet_of_Kyriakos_Mitsotakis 200 8 true true```
 
+### Click on the image below to view demonstration video
 
 [![Demo Video](https://i.imgur.com/KMkNXMw.png)](https://www.youtube.com/watch?v=48hRFiGA6_w)
 
