@@ -92,3 +92,6 @@ First of all copy and paste in your .jar file directory the following files:
 The next step is to run the following command in the directory where we have placed the above files, which is the same directory as search-engine-1.0-SNAPSHOT.jar
 
 ```java -jar search-engine-1.0-SNAPSHOT.jar https://en.wikipedia.org/wiki/Cabinet_of_Kyriakos_Mitsotakis 200 8 true true```
+
+[![Demo Video](https://imgur.com/a/isLEsEu)](https://www.youtube.com/watch?v=48hRFiGA6_w)
+
